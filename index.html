@@ -1,36 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Sankalpa's Website</title>
 </head>
-<body>
-    <div class="container">
-        <div class="nav-bar">
-            <div class="logo">
-                <img src="./img/logo.svg" alt="">
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li>Home</li>
-                    <li>Work</li>
-                    <li>About</li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="hero">
-            <div class="hero-heading">
-                <h1>Hi, I am Sankalpa</h1>
+<body>
+    <section id="navBar">
+            <div class="nav-bar">
+                <div class="nav-content">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="">
+                    </div>
+                    <div class="nav-links">
+                        <ul>
+                            <li class="home"><a href="#heroSection">Home</a></li>
+                            <li class="work"><a href="#projects">Work</a></li>
+                            <li class="contact"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="hero-para">
-                <p>I am a UI/UX designer with a background in Advertisement. I help people design products and brand that get things done. Currently based in Kathmandu, Nepal. </p>
+    </section>
+
+    <section id="heroSection">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-heading">
+                    <h1>Hi, I am Sankalpa</h1>
+                </div>
+                <div class="hero-para">
+                    <p>I am a UI/UX designer with a background in Advertisement. I help people design products and brand
+                        that get things done. Currently based in Kathmandu, Nepal. </p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="projects">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="project-img">
+                            <img class="image__img" src="./img/./lodbod.png" alt="Project">
+                            <div class="image__overlay image__overlay--primary">
+                                <div class="image__title">LODBOD</div>
+                                <p class="image__description">
+                                    A Freight Transport Management App
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="project-img">
+                            <img class="image__img" src="./img/test.jpg" alt="Bricks">
+                            <div class="image__overlay image__overlay--primary">
+                                <div class="image__title">Rara Mart</div>
+                                <p class="image__description">
+                                    Ecommerce for Nepalese Product in Japan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="project-img">
+                            <img class="image__img" src="./img/test.jpg" alt="Bricks">
+                            <div class="image__overlay image__overlay--primary">
+                                <div class="image__title">KidNCode</div>
+                                <p class="image__description">
+                                    E-learning Platform for Kids
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="project-img">
+                            <img class="image__img" src="./img/test.jpg" alt="Bricks">
+                            <div class="image__overlay image__overlay--primary">
+                                <div class="image__title">Bricks</div>
+                                <p class="image__description">
+                                    Here we have a brick wall.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-heading">
+                    <h1>Let's Work Together!</h1>
+                </div>
+                <div class="hero-para">
+                    <p>I'm always excited to take on new projects and collaborate with passionate individuals and teams.
+                        If you have a project in mind or need a creative UI/UX designer to bring your vision to life,
+                        feel free to reach out!</p>
+                </div>
+                <div class="btn-contact">
+                    <a href="">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
